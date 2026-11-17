@@ -3,7 +3,7 @@ import {Modal, StyleSheet, Text, Pressable, View} from 'react-native';
 import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
 
 export default function App() {
-const [modalVisible, setModalVisible] = useState(false);
+const [modalVisible, setModalVisible] = useState<boolean>(false);
 
 /*
 <SafeAreaProvider> Provides info about the safe screen area insets to the app, ensuring that content is displayed correctly.
